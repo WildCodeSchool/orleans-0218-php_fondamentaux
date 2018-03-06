@@ -92,3 +92,37 @@ if (10 == $a) {
     echo 'ko';
 }
 
+echo '<hr/>';
+$notes = [10,15,4,8];
+
+for ($i = 0; $i < 5; $i++) {
+    echo $i;
+}
+
+for ($i = 10; $i < 50; $i+=10) {
+    echo $i; // 10, 20, 30, 40
+}
+
+echo '<hr/>';
+
+$nbNotes = count($notes);
+for ($i = 0; $i < $nbNotes; $i++) {
+    echo $notes[$i] . ',';
+}
+
+$animals = [
+    'dog' => 'Médor',
+    'cat' => 'Isidor',
+    'dinosaure' => 'Denver',
+    'dolphin' => 'Flipper',
+];
+
+foreach ($animals as $animal) {
+    echo $animal;
+}
+
+foreach ($animals as $species => $animal) {
+    echo $animal . ' is a ' . $species;
+}
+
+
