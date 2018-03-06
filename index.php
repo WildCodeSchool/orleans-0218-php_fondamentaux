@@ -47,3 +47,9 @@ echo strtoupper($maConcatanetion); // HELLO BILBO
 $maConcatanetionUpper = strtoupper($maConcatanetion);
 echo $maConcatanetion; // Hello Bilbo
 echo $maConcatanetionUpper; // HELLO BILBO
+
+$myTab = [10,20,30];
+print_r($myTab);
+var_dump($myTab); // utile pour débug
+
+
