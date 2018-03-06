@@ -1,5 +1,7 @@
 <?php
 
+require 'functions.php';
+
 $i = 0;
 echo $i;  // 0
 
@@ -103,3 +105,8 @@ echo $persons[0]['name']['firstName'];
 echo $persons[0]['age'];
 
 var_dump($persons);
+
+echo sayHello('Nicolas', 'Vincent');
+
+
+//require 'structures_controle.php';
