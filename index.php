@@ -31,3 +31,19 @@ echo $i; // 7
 
 $i *=5;
 echo $i; // 35
+
+$message = 'Hello';
+$name = 'Bilbo';
+
+echo $message; // Hello
+echo $name; // Bilbo
+
+// Hello Bilbo
+echo $message . $name; // HelloBilbo
+echo $message . ' ' . $name; // Hello Bilbo
+echo "$message $name"; // Hello Bilbo
+$maConcatanetion = $message . ' ' . $name;
+echo strtoupper($maConcatanetion); // HELLO BILBO
+$maConcatanetionUpper = strtoupper($maConcatanetion);
+echo $maConcatanetion; // Hello Bilbo
+echo $maConcatanetionUpper; // HELLO BILBO
